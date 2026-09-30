@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink, Outlet } from "react-router-dom";
 import { Heart, Home as HomeIcon, UserRound, Sparkles, Mail } from "lucide-react";
+import lace from "../assets/lace.png";
 
 const links = [
   { to: "/", label: "home", icon: HomeIcon, end: true },
@@ -13,10 +14,10 @@ export default function SiteLayout() {
   return (
     <div className="site-shell">
       <header className="site-header">
-        <div className="mini-tab">
-          <Heart size={13} fill="currentColor" />
-          <span>Keanari</span>
-        </div>
+        <div
+    className="lace-decoration"
+    style={{ backgroundImage: `url(${lace})` }}
+  ></div>
 
         <div className="brand">
           <span>♡</span> my little space

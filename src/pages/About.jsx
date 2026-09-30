@@ -20,41 +20,25 @@ export default function About() {
       <div className="two-column">
         <div className="soft-card">
           <h2><Heart size={17} fill="currentColor" /> ola</h2>
-                    <img src={misaki} alt="Decorative" className="about-frame"/>
-          <p>
-            Mi breve descripción principalmente se basa en mi gusto por la música, los michis, dormir, coleccionar cosas y un largo etcétera.
-          </p>
+          <div class="divider-container"><img src={divider} alt="Decorative"/></div>
+                <img src={misaki} alt="Decorative" className="about-frame"/>
+          <p>Mi breve descripción principalmente se basa en mi gusto por la música, los michis, dormir, coleccionar cosas y un largo etcétera.</p>
           <div className="mini-socials">
-  <a
-    href="https://letterboxd.com/keanari/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="mini-social-button"
-  >
-    letterboxd
-  </a>
-
-  <a
-    href="https://keanari.tumblr.com/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="mini-social-button"
-  >
-    tumblr
-  </a>
-</div>
+  <a href="https://letterboxd.com/keanari/" target="_blank" rel="noopener noreferrer" className="mini-social-button">letterboxd</a>
+  <a href="https://keanari.tumblr.com/" target="_blank" rel="noopener noreferrer" className="mini-social-button">tumblr</a>
+          </div>
         </div>
 
         <div className="soft-card">
-          <h2>Likes ✦</h2>
+          <h2>✦ Likes</h2>
           <ul className="fact-list">
             <li><img src={rila} alt="Decorative"/> rilakkuma </li>
             <li><img src={michi} alt="Decorative"/> michis</li>
-            <li><Code2 size={15} /> desarrollo web</li>
             <li><img src={music} alt="Decorative"/> music</li>
             <li><img src={heart} alt="Decorative"/> kawaii stuff</li>
             <li><img src={flores} alt="Decorative"/> primavera</li>
             <li><img src={stars} alt="Decorative"/> sleep</li>
+            <li><Code2 size={15} /> desarrollo web</li>
             <div class="divider-container"><img src={divider} alt="Decorative"/></div>
           </ul>
         </div>
